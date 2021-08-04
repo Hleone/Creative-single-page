@@ -2114,3 +2114,295 @@
     color: #666666;
     line-height: 36px;
 }
+.commentList ol li ul.ChildCom{
+    padding-left: 140px;
+    margin-bottom: 60px;
+}
+.commentList ol li ul.ChildCom li{
+    position: relative;
+}
+.commentList ol li ul.ChildCom li:before{
+    position: absolute;
+    left: -10px;
+    width: 10px;
+    height: 180px;
+    background: #f2f2f2;
+    content: '';
+}
+.commentList ol li ul.ChildCom li .singleCom{
+    margin-left: 20px;
+}
+.commentList ol li > .singleCom{
+    position: relative;
+}
+.comReplyTitle{
+    margin-bottom: 46px;
+}
+.commentForm input[type="text"], 
+.commentForm input[type="email"], 
+.commentForm textarea {
+    border-color: -moz-use-text-color -moz-use-text-color #000;
+    border-style: none none solid;
+    border-width: medium medium 2px;
+    color: #818181;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 1.96px;
+    line-height: 28px;
+    margin-bottom: 27px;
+    padding: 0 0 14px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.commentForm textarea{
+    height: 100px;
+    margin-bottom: 68px;
+}
+.commentForm input[type='text']::-webkit-input-placeholder ,
+.commentForm input[type='email']::-webkit-input-placeholder ,
+.commentForm textarea::-webkit-input-placeholder {
+    color: #818181;
+    opacity: 1;
+}
+.commentForm input[type='text']:-moz-placeholder,
+.commentForm input[type='email']:-moz-placeholde,
+.commentForm textarea:-moz-placeholde{
+    color: #818181;
+    opacity: 1;
+}
+.commentForm input[type='text']::-moz-placeholder ,
+.commentForm input[type='email']::-moz-placeholder,
+.commentForm textarea::-moz-placeholder{
+    color: #818181;
+    opacity: 1;
+}
+.commentForm input[type='text']:-ms-input-placeholder,
+.commentForm input[type='email']:-ms-input-placeholder,
+.commentForm textarea:-ms-input-placeholder{
+    color: #818181;
+    opacity: 1;
+}
+.wdhContent.bdetail{
+    border-bottom: 1px solid #f3f3f3;
+    padding-bottom: 94px;
+}
+.workDetailHead.bdetail{
+    padding-bottom: 0;
+}
+.singleBlog .blogThumb img{
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.singleBlog .blogThumb{
+    overflow: hidden;
+}
+.singleBlog:hover .blogThumb img{
+    transform: scale(1.08) rotate(-2deg);
+    -moz-transform: scale(1.08) rotate(-2deg);
+    -o-transform: scale(1.08) rotate(-2deg);
+    -ms-transform: scale(1.08) rotate(-2deg);
+    -webkit-transform: scale(1.08) rotate(-2deg);
+}
+
+
+/*=======================================================================
+[20] HOME THREE
+=========================================================================*/
+.parallaxOne,
+.parallaxTwo,
+.parallaxThree,
+.parallaxFour{
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+.abcontentTP,
+.parTwoContent,
+.parallaxThreeCon,
+.parallaxfirstCon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.bgCover{
+    width: 460px;
+    height: 640px;
+    background: #101010;
+}
+.parTwoContent {
+    background: #101010;
+    height: 640px;
+    position: absolute;
+    width: 460px;
+    padding: 112px 50px;
+    right: auto;
+    left: auto;
+}
+.parTwoContent h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 46px;
+}
+.parTwoContent h1{
+    font-size: 150px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 150px;
+    margin-bottom: 19px;
+    position: relative;
+    left: -50px;
+}
+.parTwoContent p{
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0;
+    color: #fff;
+    font-weight: 400;
+    height: 150px;
+}
+.chooseUsContent.home_page3{
+    padding-top: 215px
+}
+.chooseUsContent.home_page3 h3,
+.chooseUsContent.home_page3 .signatureandname h4{
+    color: #fff;
+}
+.parallaxThreeCon{
+    text-align: center;
+    padding: 0 220px;
+}
+.parallaxThreeCon h2,
+.parallaxThreeCon h1{
+    color: #fff;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 0;
+}
+.parallaxThreeCon h2{
+    font-size: 90px;
+    line-height: 80px;
+    margin-bottom: 5px;
+}
+.parallaxThreeCon h1{
+    font-size: 120px;
+    line-height: 110px;
+    margin-bottom: 35px;
+}
+.parallaxThreeCon p{
+    color: #fff;
+    font-size: 24px;
+    line-height: 40px;
+}
+.parallaxfirstCon{
+    text-align: center;
+}
+.mouseSlider2.home_page3 {
+    bottom: 40px;
+    margin: auto;
+    position: absolute;
+    top: auto;
+}
+
+.header3{}
+.fixednavHeader {
+    z-index: 9;
+    text-align: right;
+    width: 180px;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transition: all 900ms ease;
+    -moz-transition: all 900ms ease;
+    -ms-transition: all 900ms ease;
+    -o-transition: all 900ms ease;
+    transition: all 900ms ease;
+}
+.header3.active .fixednavHeader{
+    top: -150px;
+}
+.fixednavHeader li {
+    line-height: 1;
+    margin-bottom: 33px;
+    position: relative;
+    display: inline-block;
+}
+.fixednavHeader li:last-of-type{
+    margin-bottom: 0;
+}
+.fixednavHeader li:before{
+    position: absolute;
+    right: 0;
+    content: '';
+    width: 40px;
+    height: 2px;
+    display: inline-block;
+    background: #fff;
+    bottom: -14px;
+    opacity: .20;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.fixednavHeader li:hover:before,
+.fixednavHeader li.active:before{
+    width: 100%;
+}
+.fixednavHeader li.active a,
+.fixednavHeader li:hover a{
+    color: #fff;
+    opacity: 1;
+}
+.fixednavHeader li a{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    padding-right: 0;
+    padding-right: 46px;
+    display: inline-block;
+    opacity: .10;
+}
+.parTwoContent{}
+.parTwoContent h1 span{
+    color: #fff;
+}
+.typewrite > .wrap{
+    border: none !important;
+    position: relative;
+}
+.typewrite > .wrap:after{
+    background: #fff;
+    content: "";
+    height: 120px;
+    left: auto;
+    padding-left: 3px;
+    position: absolute;
+    right: -21px;
+    top: 48px;
+    width: 10px;
+}
+.copyright2 {
+    background: #171717;
+}
+.footer2 .widgetTitle,
+.footer2 .fooInfo p b{
+    color: #fff;
+}
+.footer2 .newsletter input[type="email"]{
+    border-color: #313131
+}
