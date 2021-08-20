@@ -5,7 +5,7 @@ $sub_email 	= $_POST['sub_email'];
 $to = 'expjoomworker@gmail.com';
 $subject = 'Bespoke Subscription';
 
-$message = 'Subscription Request Received From Bespoke:<br/><br/>';
+$message = 'Subscription Request Received From Hleone:<br/><br/>';
 $message .= '<strong>Email : </strong>'.$sub_email.'<br/><br/>';
 
 $headers = "MIME-Version: 1.0" . "\r\n";
